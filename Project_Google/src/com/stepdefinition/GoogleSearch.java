@@ -13,6 +13,8 @@ import cucumber.api.java.en.Then;
 
 public class GoogleSearch {
 	public  WebDriver driver;
+	
+	
 	PropertiesReader obj=new PropertiesReader();
 	
 	@Given("^open browser$")
